@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Weather App Compose</string>
+
+    <string-array name="uv_index_low">
+        <item>Low</item>
+        <item>Minimal risk. Safe to be outside.</item>
+    </string-array>
+
+    <string-array name="uv_index_moderate">
+        <item>Moderate</item>
+        <item>Wear sunscreen and protective clothing.</item>
+    </string-array>
+
+    <string-array name="uv_index_high">
+        <item>High</item>
+        <item>High risk of harm. Wear sunscreen and hat.</item>
+    </string-array>
+
+    <string-array name="uv_index_very_high">
+        <item>Very High</item>
+        <item>Stay in shade, wear SPF 30+ and protective clothing.</item>
+    </string-array>
+
+    <string-array name="uv_index_extreme">
+        <item>Low</item>
+        <item>Extreme risk. Avoid sun exposure.</item>
+    </string-array>
+
+    <string-array name="uv_index_undefined">
+        <item>Undefined</item>
+        <item>Undefined</item>
+    </string-array>
+
+    <string-array name="visibility_excellent">
+        <item>Excellent</item>
+        <item>Crystal clear skies, exceptionally long views.</item>
+    </string-array>
+
+    <string-array name="visibility_very_good">
+        <item>Very Good</item>
+        <item>Distant landmarks are clearly visible.</item>
+    </string-array>
+
+    <string-array name="visibility_good">
+        <item>Good</item>
+        <item>Typical clear day. Easy to see distant features.</item>
+    </string-array>
+
+    <string-array name="visibility_moderate">
+        <item>Moderate</item>
+        <item>Some haze or light mist may be present.</item>
+    </string-array>
+
+    <string-array name="visibility_poor">
+        <item>Poor</item>
+        <item>Significant haze, mist, or light fog.</item>
+    </string-array>
+
+    <string-array name="visibility_very_poor">
+        <item>Very Poor</item>
+        <item>Fog, heavy mist, or smoke is present.</item>
+    </string-array>
+
+    <string-array name="visibility_extremely_poor">
+        <item>Extremely Poor/Fog</item>
+        <item>Dense fog or thick smoke. Very limited visibility.</item>
+    </string-array>
+
+    <string-array name="visibility_undefined">
+        <item>Undefined</item>
+        <item>Undefined</item>
+    </string-array>
+
+    <string name="today">Today</string>
+
+    <string name="search_bar_hint">Search for a city or airport</string>
+
+    <string name="no_internet_connection">No internet connection.</string>
+
+</resources>

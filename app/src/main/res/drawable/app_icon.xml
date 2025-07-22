@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Circular background -->
+    <path
+        android:fillColor="#2E86AB"
+        android:pathData="M24,0C37.25,0 48,10.75 48,24C48,37.25 37.25,48 24,48C10.75,48 0,37.25 0,24C0,10.75 10.75,0 24,0Z"/>
+
+    <!-- Lighter blue overlay for gradient effect -->
+    <path
+        android:fillColor="#5DADE2"
+        android:fillAlpha="0.6"
+        android:pathData="M24,0C37.25,0 48,10.75 48,24C48,32 44,18 32,8C29,5 26.5,2 24,0Z"/>
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M32,16C34.76,16 37,18.24 37,21C37,23.76 34.76,26 32,26C29.24,26 27,23.76 27,21C27,18.24 29.24,16 32,16Z"/>
+
+    <!-- Sun rays -->
+    <path
+        android:strokeColor="#FFD93D"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M32,11 L32,13.5 M40,21 L37.5,21 M37.2,14.8 L35.4,16.6 M26.8,14.8 L28.6,16.6 M37.2,27.2 L35.4,25.4 M26.8,27.2 L28.6,25.4 M32,28.5 L32,31"/>
+
+    <!-- Cloud shadow -->
+    <path
+        android:fillColor="#D5D5D5"
+        android:pathData="M15,28.5C12.24,28.5 10,26.26 10,23.5C10,20.74 12.24,18.5 15,18.5C15.7,18.5 16.35,18.65 16.92,18.9C17.95,16.65 20.3,15 23,15C26.59,15 29.5,17.91 29.5,21.5C29.5,21.67 29.49,21.84 29.47,22C31.68,22.17 33.5,24.08 33.5,26.5C33.5,29.04 31.46,31.08 28.92,31.08L15,31.08C12.24,31.08 10,28.84 10,26.08C10,25.49 10,28.5 15,28.5Z"/>
+
+    <!-- Main cloud -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,27C12.24,27 10,24.76 10,22C10,19.24 12.24,17 15,17C15.7,17 16.35,17.15 16.92,17.4C17.95,15.15 20.3,13.5 23,13.5C26.59,13.5 29.5,16.41 29.5,20C29.5,20.17 29.49,20.34 29.47,20.5C31.68,20.67 33.5,22.58 33.5,25C33.5,27.54 31.46,29.58 28.92,29.58L15,29.58C12.24,29.58 10,27.34 10,24.58C10,23.99 10,27 15,27Z"/>
+
+    <!-- Small decorative cloud -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:fillAlpha="0.8"
+        android:pathData="M38,32C39.66,32 41,33.34 41,35C41,36.66 39.66,38 38,38C36.34,38 35,36.66 35,35C35,33.34 36.34,32 38,32Z"/>
+
+    <!-- Tiny accent -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M12,35C12.83,35 13.5,35.67 13.5,36.5C13.5,37.33 12.83,38 12,38C11.17,38 10.5,37.33 10.5,36.5C10.5,35.67 11.17,35 12,35Z"/>
+
+</vector>
